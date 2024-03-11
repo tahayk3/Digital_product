@@ -1,0 +1,44 @@
+.fedeIn{
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+
+    -webkit-animation-name: fedeIn;
+    animation-name: fedeIn;
+}
+
+@keyfremes fedeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.fadeInDown{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown; 
+}
+
+@keyfremes fadeInDown{
+    from{
+        opacity: 0;
+        -webkit-transform: traslated3d(0, 100%, 0);
+        transform: traslated3d(0, 100%, 0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: traslated3d(0, 0, 0);
+        transform: traslated3d(0, 0, 0);
+    }
+}
